@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CBT</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_location">Map</string>
+    <string name="title_activity_slider">Slider</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

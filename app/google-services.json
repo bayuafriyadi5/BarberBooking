@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "890100829497",
+    "firebase_url": "https://cbtfirebaseproject.firebaseio.com",
+    "project_id": "cbtfirebaseproject",
+    "storage_bucket": "cbtfirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890100829497:android:9005e061145c32ca",
+        "android_client_info": {
+          "package_name": "com.example.bayuapriyadi.cbt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890100829497-62tvmbgqagv50m1es61ecnt9sl3neibr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bayuapriyadi.cbt",
+            "certificate_hash": "0e45e7b89ab22994c7f46ffcf32b2caa553f16c7"
+          }
+        },
+        {
+          "client_id": "890100829497-oivj0m60k04n33jujonou1v0820454t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLQVGbHwTdqqAWIBQDJo5vu2c-ZaRfRSk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890100829497-oivj0m60k04n33jujonou1v0820454t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

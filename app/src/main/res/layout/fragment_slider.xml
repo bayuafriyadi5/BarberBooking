@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/bggradient"
+    tools:context=".Slider$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="Choose your Hairstyle"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/image_iv"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <TextView
+                android:id="@+id/hairname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="UnderCut"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/SaveHairbtn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:clickable="true"
+                android:elevation="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="105dp"
+                        android:layout_marginLeft="105dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginEnd="101dp"
+                        android:layout_marginRight="101dp"
+                        android:layout_marginBottom="7dp"
+                        android:gravity="center"
+                        android:text="Next"
+                        android:textColor="@color/common_google_signin_btn_text_dark_default"
+                        android:textSize="18sp"
+                        app:fontFamily="@font/nunito" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
